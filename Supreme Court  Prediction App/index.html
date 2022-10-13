@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supreme Court Prediction</title>
+    <link rel="StyleSheet" href="style.css"/>
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Supreme Court Judgement Prediction</h2>
+        </div>
+        <img src="hamoye/hamoye_image.jfif" class="image">
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="facts">Facts</label>
+                <input type="text" placeholder="facts of the data"  />
+                
+                
+            </div>
+            <div class="form-control">
+                <label for="disposition">Disposition</label>
+                <input type="number" placeholder="disposition"  />
+              
+                
+            </div>
+            <div class="form-control">
+                <label for="issue area">Issue area</label>
+                <input type="number" placeholder="the issue area" />
+                
+                
+            </div>
+            <div class="predict">
+               <h4>{{ prediction_text}}</h4>
+                
+            </div>
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+			
